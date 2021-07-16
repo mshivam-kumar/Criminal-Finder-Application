@@ -7,7 +7,7 @@ from listComp import ListComp
 import back
 
 #Public log in
-def complain_management():
+def complaint_management():
     # root.destroy()  
     conn = DBConnect()
     root1 = Tk()
@@ -299,7 +299,7 @@ Label(topFrame, text="                  Enter Name",bg="light blue",font=('Times
 textentry_public = Entry(topFrame , width =18 ,fg="black" ,bg="white")
 textentry_public.grid(row=6, column = 2,sticky=E)
 
-Button(topFrame ,text="Log In",width=10,command = complain_management).grid(row=7,column=2,sticky=E)
+Button(topFrame ,text="Log In",width=10,command = complaint_management).grid(row=7,column=2,sticky=E)
 
 
 def close():
